@@ -1,0 +1,63 @@
+.outer-box
+{
+    display: flex;
+   justify-content: space-between;
+}
+
+.left-box
+{
+    background-color: #51dcc5;
+    width: 470px;
+    height: 100vh;
+    color: white;
+}
+
+.right-box{
+    padding-right: 100px;
+    flex: 1;
+    margin-top: 70px;
+}
+.left-box-content{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.btn-signup{
+background-color: #51dcc5;
+border: none;
+margin-left: 3rem;
+width: 13rem;
+height: 3rem;
+border-radius: 1.3rem;
+opacity: 0.8;
+}
+
+.btn-signup:hover{
+    opacity: 1;
+    background-color: #51dcc5;
+}
+
+
+.btn-login{
+
+    margin-top: 3rem;
+    border-color: white !important;
+    color: white;
+    width: 13rem;
+    height: 3rem;
+    border-radius: 1.3rem;
+    opacity: 0.7;
+}
+
+.btn-login:hover{
+    opacity: 1;
+}
+h2{
+    font-size: 3rem;
+}

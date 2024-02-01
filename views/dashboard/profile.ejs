@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Your Profile</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 50px;
+        }
+
+        h1 {
+            color: white;
+            background-color: #8d8989;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome <span style="color: #51dcc5"><%= username %></span> to Your Profile!!</h1>
+
+    <form action="/logout">
+        <button class="btn" style="background-color: #51dcc5; border: none; color: white;
+        width: 13rem;
+        height: 3rem;
+        border-radius: 1.3rem;">Logout</button>
+    </form>
+
+</body>
+</html>
